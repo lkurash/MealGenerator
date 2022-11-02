@@ -17,6 +17,7 @@ body {
   width: 100%;
   font-family: "Poppins", sans-serif;
   place-items: start;
+  background-color: black;
   background: url('img/an-empty-plate-with-a-knife-fork-or-spoon-with-a-wooden-cutting-board_73989-27489.jpeg')center center / cover no-repeat;
   background-attachment: fixed;
   position: relative;
