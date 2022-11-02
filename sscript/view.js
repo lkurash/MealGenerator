@@ -1,12 +1,21 @@
 export class View {
   showList(dataRecipe) {
+    this.createButtonComeBack(dataRecipe)
     this.createDishTitle(dataRecipe);
     this.createButtonReebot(dataRecipe);
     this.createIngridiens(dataRecipe);
     this.createMakeDish(dataRecipe);
 
   }
+createButtonComeBack(dataRecipe){
+  const imgComeBack = document.getElementById('comeback');
 
+    imgComeBack.innerHTML = "";
+    var img = new Image(50, 50);
+    img.src = 'img/330405_arrow_left_previous_icon.png';
+
+    imgComeBack.append(img);
+}
   createDishTitle(dataRecipe){
     const nameElem = document.getElementById('name');
     const name = dataRecipe.meals[0].strMeal;
