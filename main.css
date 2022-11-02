@@ -255,7 +255,7 @@ a {
 
 }
 
-@media (max-width: 414px) {
+@media (max-width: 550px) {
     .title {
         font-size: 48px;
     }
