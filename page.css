@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  place-items: start;
+  background: url('img/an-empty-plate-with-a-knife-fork-or-spoon-with-a-wooden-cutting-board_73989-27489.jpeg')center center / cover no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+.choicedish{
+  justify-content: center;
+  position: relative;
+  display: flex;
+}
+.name{
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Italianno;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}
+#reeboot img{
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 70px;
+}
+#reeboot img:hover {
+  background-color: rgba(255, 215, 0, 0.5);
+  cursor: pointer;
+  border-radius: 20px;
+}
+.recipe{
+  position: relative;
+  display: flex;
+  font-family: Poppins;
+  color: #fff;
+}
+
+#ingredients{
+  margin-left: 26%;
+  margin-bottom: 20px;
+}
+#ingredients ul{
+  margin-left: 15px;
+}
+#ingredients h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#img img{
+  margin-left: 50%;
+  width: 380px;
+}
+#make{
+  width: auto;
+  height: auto;
+  margin-left: 26%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+#make p{
+  word-break: break-all;
+}
+@media (max-width: 1100px){
+.name{
+  font-size: 25px;
+}
+#reeboot img{
+  margin-top: 60px;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+#img{
+  display: grid;
+  margin: 0 auto;
+  width: 280px;
+}
+#img img{
+  margin: 0 auto;
+  width: 280px;
+}
+.recipe{
+  position: relative;
+  display: inline;
+}
+#ingredients{
+  margin-left: 5%;
+}
+#ingredients h4{
+  text-align: center;
+}
+#make{
+  margin-left: 5%;
+  margin-right: 3%;
+  max-width: 700px;
+}
+}
